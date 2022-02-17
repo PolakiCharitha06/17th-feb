@@ -1,0 +1,11 @@
+n=int(input('enter a range:'))
+odd=0
+even=0
+for i in range (1,n+1):
+    if i%2==0:
+        even+=i
+        print('sum of even numbers is:',even)
+    if i%2==1:
+        odd+=i
+        print('sum of odd numbers is:',odd)
+print('sum of even and odd numbers in given range is:',odd+even)
